@@ -1,0 +1,141 @@
+  
+       head {
+            box-sizing: border-box;
+            }
+  /* ini Style headernya */
+        header {
+            background-image: url("hm.png");
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 300px;
+               }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ nav {
+	background-color:#005eff; 
+	height:50px; 
+	line-height:50px; 
+	position:relative;
+	width:1310px;
+	margin:auto;
+	margin-top:5px;
+}
+
+nav ul {
+	list-style:none;
+}
+nav ul li a {
+	float:left; 
+	width:175px; 
+	display:block; 
+	text-align:center; 
+	color:#FFF; 
+	text-decoration:none; 
+	text-transform:uppercase;
+}
+
+nav ul li a:hover {
+	background-color:#007083; 
+	display:block;
+}
+
+nav ul li:hover ul {
+	display:block;
+}
+nav ul ul {
+	display:none; 
+	list-style:none; 
+	position:absolute; 
+	background-color:rgb(35, 1, 129);
+	left:300px; 
+	top:50px; 
+	width:190px;
+}
+
+nav ul ul li a {
+	float:none; 
+	display:block; 
+	padding-left:30px; 
+	text-align:left; 
+	width:160px;
+}
+
+nav ul ul li a:hover {
+	color:rgb(255, 255, 255);
+}
+       
+        
+        nav a
+        {
+            color: white;
+        }
+ 
+        article {
+            float: left;
+            padding: 50px;
+            width:100%;
+            background-color: #07043e;
+            height: 600px;
+        
+        }
+ 
+      
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: rgb(9, 0, 128);
+            padding: 5px;
+            text-align: center;
+            color: rgb(0, 0, 110);
+        }
+ 
+        @media (max-width: 600px) {
+ 
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+ 
+
+.product {
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+  vertical-align: top;
+  width: 220px; 
+}
+
+.price {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #005eff;
+  font-size: 1.1em;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    .product-name {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  color: #007083;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.product-name:hover {
+  text-decoration: underline;
+  color: #005eff;
+}
